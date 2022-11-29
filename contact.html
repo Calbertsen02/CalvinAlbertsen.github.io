@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joe's Lawncare</title>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="joes.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>Joe's Lawncare</h1>
+        </header>
+        <nav>
+            <ul>
+               <li> <a href="index.html">Home</a> </li>
+               <li> <a href="products.html">Products</a> </li> 
+               <li> <a href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact us</h2>
+            <p>
+                <em>(All fields are required)</em>
+            </p>
+            <form method="post" id="contact" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="FName">First Name</label>
+                <input type="text" name="FName" id="FName" required>
+
+                <label for="LName">Last Name</label>
+                <input type="text" name="LName" id="LName" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="Comments">Comments</label>
+                <textarea name="Comments" id="Comments" rows="5" cols="45" required></textarea>
+
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            <i>
+                Copyright &copy; 2022 Joe's Lawncare<br>
+                <a href="mailto:joeslawncare@support.com">joeslawncare@support.com</a>
+            </i>
+        </footer>
+        </div>
+    </body>
+</html>
